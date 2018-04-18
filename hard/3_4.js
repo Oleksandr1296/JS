@@ -4,7 +4,7 @@ function FindDuplicateValues(arr) {
         for   (var i=0;i< arr.length;i++)
         {
             target=arr[i];
-            if (str.indexOf(target,i+1)!==-1)
+            if (arr.indexOf(target,i+1)!==-1)
             res.push(arr[i]);
         }
     return res;
