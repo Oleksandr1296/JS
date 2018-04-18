@@ -75,9 +75,16 @@ a{
 }
 .text {
     height:30px;
+
     margin-left: 15px;
 }
+pre {
+    background: black;
+    color: #fff;
+    padding: 20px;
+}
 .script {
+
     width: 35%;
     display: flex;
     flex-direction: row;
@@ -90,6 +97,7 @@ a{
     font-family: 'Courier New',monospace;
 }
 .container-show {
+
     flex-direction: column;
     width: 35%;
 }
