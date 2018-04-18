@@ -1,5 +1,5 @@
- function PairNumbers(arr,lenghtN) {
-    for ( var i=0; i < lenghtN; i++)
+ function PairNumbers(arr) {
+    for ( var i=0; i < arr.length; i++)
      {
          if (arr[i]%2!==1)
          {
@@ -8,4 +8,4 @@
     }
 }
 var arr = [1,2,3,4,5,6,78,77];
-PairNumbers (arr,arr.length);
+PairNumbers (arr);

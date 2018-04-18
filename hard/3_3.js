@@ -1,16 +1,16 @@
-function BinarySearch(d,t,s,e,ret) {
-    var d, t, s, e;
-    const m = Math.floor((s + e+1 ) / 2);
-    if (t < d[m]) {
-        ret.push(d[m]);
-        return BinarySearch(d, t, s, m,ret);
+function BinarySearch(date,target,start,end,ret) {
+    var date, target, start, end;
+    const middle = Math.floor((start + end+1 ) / 2);
+    if (target < date[middle]) {
+        ret.push(date[middle]);
+        return BinarySearch(date, target, start, middle,ret);
     }
-    if (t > d[m]) {
-        ret.push(d[m]);
-        return BinarySearch(d, t, m, e,ret);
+    if (target > date[middle]) {
+        ret.push(date[middle]);
+        return BinarySearch(date, target, middle, end,ret);
     }
-    if (t === d[m]) {
-        ret.push(d[m]);
+    if (target === date[middle]) {
+        ret.push(date[middle]);
         return ret;
     }
 }

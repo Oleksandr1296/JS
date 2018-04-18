@@ -1,7 +1,7 @@
  function CombinationsOfString (str) {
     var arr=[];
-    for (i=0;i<str.length;i++) {
-        for (j=1;j<= str.length-i;j++)
+    for (var i=0;i<str.length;i++) {
+        for (var j=1;j<= str.length-i;j++)
         {
             arr.push(str.substr(i,j));
         }

@@ -1,7 +1,7 @@
  function reverseStr (str) {
-    var string = str.split('');
-    string.reverse();
-    return string.join('');
+    var arr = str.split('');
+    arr.reverse();
+    return arr.join('');
     return str;
 }
 console.log(reverseStr("elpoep iH"));

@@ -1,9 +1,9 @@
- function reverseNum (n) {
+ function reverseNum (number) {
 var res=0;
-     for(var i = 0; n > 1; i++) {
-         n= Math.floor(n);
-          res=res*10+(n%10);
-         n=n/10;
+     for(var i = 0; number > 1; i++) {
+       number= Math.floor(number);
+       res=res*10+(number%10);
+       number=number/10;
      }
   return res;
 }

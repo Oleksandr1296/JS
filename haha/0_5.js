@@ -1,8 +1,10 @@
 function USDtoUAN(i) {
-    console.log(i*26)
+    var curseUAN=26;
+    console.log(i*curseUA);
 }
 USDtoUAN (10);
 function UANtoUSD(i) {
-    console.log(i/26)
+  var curseUSD=26;
+  console.log(i/curseUSD);
 }
 UANtoUSD (900);

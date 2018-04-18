@@ -13,5 +13,6 @@ function BubbleSort(n) {
     }
     return n;
 }
-var arr=[12, 345, 4, 546, 122, 84, 98, 64, 9, 1, 3223, 455, 23, 234, 213];
+var arr=[12, 345, 4, 546, 122, 84, 98,  64, 9, 1, 3223, 455,
+  23, 234, 213];
 console.log(BubbleSort(arr));

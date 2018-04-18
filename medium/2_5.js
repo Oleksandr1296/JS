@@ -1,8 +1,7 @@
  function FirstWorldUP (str) {
-    var i=0;
-   while (true) {
+    for (var i=0;i<str.length;i++) {
        var target=str[i];
-       pos =0;
+       var pos =0;
        var FoundPOs =str.indexOf(target,pos);
        pos= FoundPOs+1;
        var FoundPOs =str.indexOf(target,pos);
@@ -11,12 +10,6 @@
            console.log(str[pos-1]);
            break;
        }
-       i++;
-       if (i==str.length)
-       {
-           console.log("not found");
-           break;
-       }
-   }
+    }
 }
 FirstWorldUP("abacddebc");

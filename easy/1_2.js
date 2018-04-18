@@ -1,8 +1,8 @@
- function MaxAndMin(arr,lenghtN) {
+ function MaxAndMin(arr) {
      var min,max;
       min=arr[0];
       max=arr[0];
-     for ( var i=0; i < lenghtN; i++)
+     for ( var i=0; i < arr.length; i++)
      {
 
          if (arr[i]>max)
