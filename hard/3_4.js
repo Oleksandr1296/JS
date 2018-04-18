@@ -1,11 +1,11 @@
-function FindDuplicateValues(str) {
+function FindDuplicateValues(arr) {
     var res=[];
-    var target=str[0];
-        for   (var i=0;i< str.length;i++)
+    var target=arr[0];
+        for   (var i=0;i< arr.length;i++)
         {
-            target=str[i];
+            target=arr[i];
             if (str.indexOf(target,i+1)!==-1)
-            res.push(str[i]);
+            res.push(arr[i]);
         }
     return res;
 }
